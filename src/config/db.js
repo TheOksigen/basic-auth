@@ -1,14 +1,5 @@
-const mongoose = require("mongoose");
-
 const connectDB = async () => {
-  const mongoUri = process.env.MONGO_URI;
-
-  if (!mongoUri) {
-    throw new Error("MONGO_URI is not defined in environment variables");
-  }
-
-  await mongoose.connect(mongoUri);
-  console.log("MongoDB connected");
+  console.log("JSON file storage is ready");
 };
 
 module.exports = connectDB;

@@ -1,4 +1,4 @@
-# Auth Backend (Express + MongoDB + JWT)
+# Auth Backend (Express + JSON + JWT)
 ## API
 
 ### POST `/register`
@@ -25,7 +25,7 @@
 {
   "token": "jwt_token",
   "user": {
-    "id": "mongo_id",
+    "id": "user_id",
     "username": "john_doe",
     "email": "john@example.com",
     "gender": "male",
@@ -67,7 +67,7 @@
 ```json
 {
   "user": {
-    "_id": "mongo_id",
+    "_id": "user_id",
     "username": "john_doe",
     "email": "john@example.com",
     "gender": "male",

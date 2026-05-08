@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "80206b45-818b-4730-bda8-c91cd10c8d69",
+    "username": "smoke_user",
+    "email": "smoke@example.com",
+    "password": "hash",
+    "gender": "male",
+    "birthDate": "2000-01-01T00:00:00.000Z",
+    "createdAt": "2026-05-08T10:21:16.815Z",
+    "updatedAt": "2026-05-08T10:21:16.815Z",
+    "__v": 0
+  }
+]
